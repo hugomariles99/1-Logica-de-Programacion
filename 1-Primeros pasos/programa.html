@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+
+<h1>PROGRAMA</h1>
+
+<script>
+
+    let anho = 2025;
+    const saltoLinea = "<br><br><br>";
+
+    function saltarLinea(){
+        document.write(saltoLinea);
+    }
+
+    function imprimir(frase){
+        document.write(frase);
+        saltarLinea();
+    }
+
+    imprimir("hola amigos");
+
+    
+
+    //Calcular las edades de Juan, Pedro y Carlos
+    imprimir("Juan tiene: " + (anho-2000) + " años");
+
+    imprimir("Pedro tiene: " + (anho-1995) + " años");
+
+    anho = 2030;
+
+    imprimir("Carlos tiene: " + (anho-2005) + " años");
+
+</script>
